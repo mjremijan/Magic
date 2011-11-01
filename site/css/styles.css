@@ -13,7 +13,7 @@ body {
 
 
 
-#gamesHolder { clear:both; background: url(../design/shadow.png) no-repeat center 295px; padding: 5px; width: 600px;  margin: 0px auto;}
+#gamesHolder { clear:both; background: url(../design/shadow.png) no-repeat center 295px; padding: 5px; width: 565px;  margin: 0px auto;}
 
 #header { position: relative; height: 120px; }
 #header h1 { position: absolute; top: 2px; left: 2px; color: #333333; font-size: 70px; }
