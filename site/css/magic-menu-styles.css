@@ -36,7 +36,6 @@
    position:relative;
    right:50%;
    border-right:1px solid white;
-   width:150px;
    height:25px;
    vertical-align:middle;
 }
@@ -45,15 +44,14 @@
 }
 #menu-centered ul li a {
    display:block;
-   margin:0 0 0 1px;
    padding:3px 10px;
    background:rgb(245, 226, 189);
    color:black;
    text-decoration:none;
    line-height:1.3em;
    font-family:arial;  
-      height:25px;
-   vertical-align:middle;
+   height:25px;   
+   width:175px;
 }
 #menu-centered ul li a:hover {
    background:rgb(237, 202, 137);

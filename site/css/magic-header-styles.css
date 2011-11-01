@@ -25,18 +25,28 @@
  	position:relative;
 	float:right;
 	text-align:right;
+}
+ #header-menu-links{
+	margin:0; border:0; padding:0;
  	font-family:arial;
 	font-size:12px;
 	text-decoration:none;
-	color:white;
+	color:black;
 	font-weight:bold;
-	
+	padding-top:10px;
  }
- #header-menu a {
+ #header-menu-links a {
  	font-family:arial;
 	font-size:12px;
 	text-decoration:none;
-	color:white;
-	font-weight:bold;	
+	color:black;
+	font-weight:bold;		
+ }
+ #header-menu-links a:hover{
+	text-decoration:underline;
+ }
+ #header-menu-slogan {
+	margin:0; border:0; padding:0;
+	padding-top:15px;
  }
  
