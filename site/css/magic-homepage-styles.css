@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+#homepage-locations
+{
+    postion:relative;
+    margin:0; border:0; padding:0;
+    float:left;
+    padding-right:15px;
+    height:290px;
+    vertical-align:middle;
+}
+#homepage-locations h1
+{
+    margin:0; border:0; padding:0;
+    font-family:arial;
+    font-size:12pt;
+    font-weight:bold;
+}
+#homepage-locations p
+{
+    margin:0; border:0; padding:0;
+    font-family:arial;
+    font-size:10pt;
+    padding-bottom:25px;
+}
+#homepage-locations a
+{
+   color:white;
+}
+
+#homepage-slider-wrapper {
+    postion:relative;
+    background: url(../images/slider/shadow.png) no-repeat center 290px;
+    padding: 0px;
+    border: 0px;
+    width: 565px;
+    //margin: 0px auto;
+    float:right;
+}
