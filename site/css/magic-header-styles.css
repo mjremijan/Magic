@@ -12,6 +12,11 @@
 
  #header {margin:0; border:0; padding:0;}
 
+  #header-wrapper {
+	margin:0; border:0; padding:0;
+	overflow: hidden;
+	margin-bottom:20px;
+ }
  #header-logo {
 	margin:0; border:0; padding:0;
 	position:relative;
