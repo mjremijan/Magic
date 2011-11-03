@@ -1,28 +1,26 @@
 @CHARSET "UTF-8";
-
 /*
- * Created As:magic-menu-styles.css
- * Created By:Michael Remijan
- * Created On:1 Nov 2011
+ * Created As: magic-header-styles.css
+ * Created By: Michael Remijan
+ * Created On: 2 Nov 2011
  * References:
- * 	-
+ * 	- none
  *
  * The purpose of this style sheet is to provide styling for header items.
  */
+#header {margin:0; border:0; padding:0;}
 
- #header {margin:0; border:0; padding:0;}
-
-  #header-wrapper {
+#header-wrapper {
 	margin:0; border:0; padding:0;
 	overflow: hidden;
 	margin-bottom:20px;
- }
- #header-logo {
+}
+#header-logo {
 	margin:0; border:0; padding:0;
 	position:relative;
 	float:left;
 	width:300px;
- }
+}
 #header-logo img {width:250px;}
 
 #header-menu {
@@ -57,7 +55,6 @@
 #header-menu-slogan {
     margin:0; border:0; padding:0;
 	margin-top:25px;
-	margin-right:-10px;
-	
+	margin-right:-10px;	
 }
 

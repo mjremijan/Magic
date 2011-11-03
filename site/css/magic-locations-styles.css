@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+/*
+ * Created As: magic-locations-styles.css
+ * Created By: Michael Remijan
+ * Created On: 3 Nov 2011
+ * References:
+ * 	- none
+ *
+ * The purpose of this style sheet is to provide styling for locations items
+ */
+#locations-map {
+	position:relative;
+	float:right;
+}
+
+#locations-locations {
+    postion:relative;
+    margin:0; border:0; padding:0;
+    float:left;
+	text-align:center; 
+	width:390px;
+}
+#locations-locations h1 {
+    margin:0; border:0; padding:0;
+    font-family:arial;
+    font-size:16pt;
+    font-weight:bold;
+	margin-bottom:15px;
+}
+#locations-locations p {
+    margin:0; border:0; padding:0;
+    font-family:arial;
+    font-size:12pt;
+    padding-bottom:25px;
+	line-height:2.0em;
+}
+#locations-locations table { 
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align:top;
+}
+#locations-locations table tr td { 
+	vertical-align:top;
+	text-align:left;
+	padding-right:10px;
+	font-size:12pt;
+	font-family:arial;
+	padding-bottom:0px;
+}
+#locations-locations table tr td.label { 
+	font-weight:bold;	
+	color:black;
+}
+
+
+

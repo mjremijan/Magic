@@ -1,149 +1,136 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>
-       Locations: Magic Building Block Preschool & Childcare Center
-    </title>
-    <style>
-        .homepage-link {
-            color:white;
-            font-family:arial;
-            font-size:22px;
-            width:150px;
-            text-align:center;
-            float:left;
-			text-decoration:none;
-        }
-    </style>
-    <link rel="stylesheet" href="css/site.css" type="text/css" media="screen"></link>	
-</head>
+    <link rel="shortcut icon" href="images/shared/favicon.ico" type="image/x-icon" />
 
-<body style="background-color:rgb(0,26,230);background-repeat:repeat-x;background-image:url('images/homepage/background-gradient.png');" >
-	<div style="position:absolute; top:4px; left:670px; border:0px solid red;">
-		<img style="width:225px" alt="homepage swoosh" src="images/shared/logo.png" />
-	</div>
-	<div style="position:absolute; top:125px; left:100px; width:700px;">
-		<a class="homepage-link" href="home.html">Home</a>
-		&nbsp;&nbsp;
-		<a class="homepage-link"  href="philosophy.html">Philosophy</a>
-		&nbsp;&nbsp;
-		<a class="homepage-link" style="background-color:rgb(237, 219, 184);color:black;" href="locations.html">Locations</a>
-		&nbsp;&nbsp;
-		<a class="homepage-link" href="cirriculum.html">Curriculum</a>
-		&nbsp;&nbsp;
-		<a class="homepage-link" href="rates.html">Rates</a>
-		<br />
-	</div>
-	<div style="position:absolute; top:150px; left:100px;width:700px; background-image:url('images/shared/curvy-background.png');background-repeat:repeat-y;">
-		<div style="position:relative; left:20px; width:300px;">
-			<p style="padding-left:20px; padding-right:25px; font-family:arial; font-size:12pt; line-height:2.3em; text-align:center;">
-				928 Lincoln Highway
-				<br />
-				Fairview Heights, IL    62208
-				<br />
-				618-632-7339
-				<br />
-				<br />
-				5601 Old Collinsville Road
-				<br />
-				Fairview Heights, IL    62208
-				<br />
-				618-632-7338
-				<br />
-				<br />
-				<a href="mailto:info@magicbuildingblock.com">info@magicbuildingblock.com</a>
-			</p>
-		</div>
-	</div>	
-	<div id="map" style="position:absolue; top:175px; left:415px; width:315px; border-style:groove" ></div>
+    <meta name="description" content="Magic Building Block Preschool &amp; Childcare Center" />
+    <meta name="keywords" content="Magic Building Block, Preschool, Childcare, Fairview Heights, Illinois" />
+
+	<!-- jquery -->
+    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>    
+		
+	<!-- magic (common) -->	
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />
+	<link rel="stylesheet" href="css/magic-header-styles.css" type="text/css" />
+	<link rel="stylesheet" href="css/magic-menu-styles.css" type="text/css" />
 	
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
-	<script>
-		var MYMAP = {
-		  bounds: null,
-		  map: null
-		}
-		MYMAP.init = function(selector, latLng, zoom) {
-			var myOptions = {
-				zoom:zoom,
-				center: latLng,
-				mapTypeId: google.maps.MapTypeId.ROADMAP
-			}
-			this.map = new google.maps.Map($(selector)[0], myOptions);
-			this.bounds = new google.maps.LatLngBounds();
-		}
-		MYMAP.placeMarkers = function(filename) {
-			load1();
-			load2();
-			
-			// Fit the map around the markers we added:
-			//MYMAP.map.fitBounds(MYMAP.bounds);
-		}
+	<!-- magic (locations) -->
+	<script type="text/javascript" src="js/google-maps-2011.11.03.js"></script>
+	<script type="text/javascript" src="js/magic-locations.js"></script>    
+	<link rel="stylesheet" href="css/magic-locations-styles.css" type="text/css" />
+	
+    <title>Locations: Magic Building Block Preschool &amp; Childcare Center</title>
+</head>
+<body>
+
+<div id="content">
+	<div id="header-wrapper">
+		<div id="header-logo">
+			<img alt="magic building block logo" src="images/header/logo.png" />
+		</div>
+		<div id="header-menu">
+			<div id="header-menu-links">
+				<a href="index.html">home</a> | <a href="#">contact us</a>
+			</div>
+			<div id="header-menu-slogan">
+				<img src="images/header/serving-30-years.png" alt="serving over 30 years" />
+			</div>
+		</div>
+	</div>
+
+
+	<div id="menu-centered-dropshadow">
+	    <img src="images/menu/centered-dropshadow.png"/>
+	</div>
+    <div id="menu-centered-items">
+	   <ul>
+		  <li class="first"><a class="active" href="#">Locations</a></li>
+		  <li><a href="index.html">Philosophy</a></li>
+		  <li><a href="index.html">Rates</a></li>
+		  <li><a href="index.html">Curriculum</a></li>
+	   </ul>
+	</div>
+
+    <div class="clear"/>
+
+
+	<div style="overflow:auto; padding-top:20px; padding-bottom:20px; position:relative; top:-25px;">
+	<div id="locations-locations"> 
+		<h1>Lincoln Highway</h1>
+		<table>
+			<tr>
+				<td class="label">Address:</td>
+				<td class="data">
+					928 Lincoln Highway<br />
+					Fairview Heights, IL 62208<br />
+				</td>
+			</tr>			
+			<tr>
+				<td class="label">Phone:</td>
+				<td class="data">
+					(618) 632-7339
+				</td>
+			</tr>
+			<tr>
+				<td class="label">Fax:</td>
+				<td class="data">
+					(618) xxx-xxxx
+				</td>
+			</tr>
+			<tr>
+				<td class="label">Hours:</td>
+				<td class="data">
+					Monday-Friday<br />6:30am - 6:00pm
+				</td>
+			</tr>
+			<tr>
+				<td class="label">Closed:</td>
+				<td class="data">
+					Thanksgiving, Christmas
+				</td>
+			</tr>
+		</table>
 		
-		function load1()
-		{
-		  var name = "Magic Building Block";
-		  var address = "928 Lincoln Highway<br />Fairview Heights, IL 62208-2219";
-		  // create a new LatLng point for the marker
-		  var lat = "38.592198";
-		  var lng = "-89.968642";
-		  var phone = "618-632-7339";
-		  var point = new google.maps.LatLng(parseFloat(lat),parseFloat(lng));
-		  // extend the bounds to include the new point
-		  MYMAP.bounds.extend(point);
-		  // add the marker itself
-		  var marker = new google.maps.Marker({
-			position: point,
-			map: MYMAP.map
-		  });
-		  // create the tooltip and its text
-		  var infoWindow = new google.maps.InfoWindow();
-		  var html='<b>'+name+'</b><br />'+address+"<br />"+phone;
-		  // add a listener to open the tooltip when a user clicks on one of the markers
-		  google.maps.event.addListener(marker, 'click', function() {
-			infoWindow.setContent(html);
-			infoWindow.open(MYMAP.map, marker);
-		  });
-		}
-		function load2()			
-		{
-		  var name = "Magic Building Block";
-		  var address = "5601 Old Collinsville Road<br />Fairview Heights, IL 62208-2219";
-		  // create a new LatLng point for the marker
-		  var lat = "38.579911";
-		  var lng = "-89.966628";
-		  var phone = "618-632-7338";
-		  var point = new google.maps.LatLng(parseFloat(lat),parseFloat(lng));
-		  // extend the bounds to include the new point
-		  MYMAP.bounds.extend(point);
-		  // add the marker itself
-		  var marker = new google.maps.Marker({
-			position: point,
-			map: MYMAP.map
-		  });
-		  // create the tooltip and its text
-		  var infoWindow = new google.maps.InfoWindow();
-		  var html='<b>'+name+'</b><br />'+address+"<br />"+phone;
-		  // add a listener to open the tooltip when a user clicks on one of the markers
-		  google.maps.event.addListener(marker, 'click', function() {
-			infoWindow.setContent(html);
-			infoWindow.open(MYMAP.map, marker);
-		  });
-		}
-			
-		
-		
-		$(document).ready(function() {
-		  $("#map").css({
-			height: 300,
-			width: 350
-		  });
-		  //var myLatLng = new google.maps.LatLng(38.592634,-89.975483);
-		  var myLatLng = new google.maps.LatLng(38.587759,-89.967556);
-		  MYMAP.init('#map', myLatLng, 13);
-		  MYMAP.placeMarkers('markers.xml');
-		});
-	</script>
+		<br />
+		<h1>Old Collinsville Road</h1>		
+		<table>
+			<tr>
+				<td class="label">Address:</td>
+				<td class="data">
+					5601 Old Collinsville Road<br />
+					Fairview Heights, IL 62208<br />
+				</td>
+			</tr>			
+			<tr>
+				<td class="label">Phone:</td>
+				<td class="data">
+					(618) 632-7338
+				</td>
+			</tr>
+			<tr>
+				<td class="label">Fax:</td>
+				<td class="data">
+					(618) xxx-xxxx
+				</td>
+			</tr>
+			<tr>
+				<td class="label">Hours:</td>
+				<td class="data">
+					Monday-Friday<br />6:30am - 6:00pm
+				</td>
+			</tr>
+			<tr>
+				<td class="label">Closed:</td>
+				<td class="data">
+					Thanksgiving, Christmas
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="locations-map"></div>
+	</div>
+</div><!--content-->
+
 </body>
 </html>

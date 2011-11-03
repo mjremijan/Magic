@@ -6,15 +6,21 @@
     <meta name="description" content="Magic Building Block Preschool &amp; Childcare Center" />
     <meta name="keywords" content="Magic Building Block, Preschool, Childcare, Fairview Heights, Illinois" />
 
-    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
-    <script type="text/javascript" src="js/coin-slider.min.js"></script>
-
+	<!-- jquery -->
+    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>    
+	
+	<!-- coin-slider -->
+	<link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />
+	<script type="text/javascript" src="js/coin-slider.min.js"></script>
+	
+	<!-- magic (common) -->	
 	<link rel="stylesheet" href="css/styles.css" type="text/css" />
-    <link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />
-
 	<link rel="stylesheet" href="css/magic-header-styles.css" type="text/css" />
 	<link rel="stylesheet" href="css/magic-menu-styles.css" type="text/css" />
+	
+	<!-- magic (homepage) -->
 	<link rel="stylesheet" href="css/magic-homepage-styles.css" type="text/css" />
+	<script type="text/javascript" src="js/magic-homepage.js"></script>    
 
     <title>Home: Magic Building Block Preschool &amp; Childcare Center</title>
 </head>
@@ -27,7 +33,7 @@
 		</div>
 		<div id="header-menu">
 			<div id="header-menu-links">
-				<a href="#" class="active">home</a> | <a href="#">contact us</a>
+				<a href="index.html" class="active">home</a> | <a href="#">contact us</a>
 			</div>
 			<div id="header-menu-slogan">
 				<img src="images/header/serving-30-years.png" alt="serving over 30 years" />
@@ -41,7 +47,7 @@
 	</div>
     <div id="menu-centered-items">
 	   <ul>
-		  <li class="first"><a href="index.html">Locations</a></li>
+		  <li class="first"><a href="locations.html">Locations</a></li>
 		  <li><a href="index.html">Philosophy</a></li>
 		  <li><a href="index.html">Rates</a></li>
 		  <li><a href="index.html">Curriculum</a></li>
@@ -66,7 +72,7 @@
 			(618) 632-7338
 		</p>
 		<p>
-			<a href="#">Get details about the locations</a>
+			<a href="locations.html">Get details about the locations</a>
 		</p>
 	</div>
 
@@ -109,30 +115,6 @@
 			</a>
 		</div><!--homepage-slider-->
 	</div><!--homepage-slider-wrapper-->
-
-
-</div>
-
-
-
-<script>$(document).ready(function() {
-	$('#homepage-slider').coinslider({
-		name            : 'value'
-        //,width        : 565       // width of slider panel
-        //,height       : 290       // height of slider panel
-        //,spw          : 7         // squares per width
-        //,sph          : 5         // squares per height
-        ,delay          : 5000      // delay between images in ms
-        //,sDelay       : 30        // delay beetwen squares in ms
-        //,opacity      : 0.7       // opacity of title and navigation
-        //,titleSpeed   : 500       // speed of title appereance in ms
-        ,effect         : 'random'  // random, swirl, rain, straight
-        //,navigation   : true      // prev next and buttons
-        ,links          : false     // show images as links
-        ,hoverPause     : true      // pause on hover
-	});
-});
-</script>
-
+</div><!--content-->
 </body>
 </html>

@@ -1,7 +1,14 @@
 @CHARSET "UTF-8";
-
-#homepage-locations
-{
+/*
+ * Created As: magic-homepage-styles.css
+ * Created By: Michael Remijan
+ * Created On: 2 Nov 2011
+ * References:
+ * 	- none
+ *
+ * The purpose of this style sheet is to provide styling for hompage items
+ */
+#homepage-locations {
     postion:relative;
     margin:0; border:0; padding:0;
     float:left;
@@ -9,22 +16,19 @@
     height:290px;
     vertical-align:middle;
 }
-#homepage-locations h1
-{
+#homepage-locations h1 {
     margin:0; border:0; padding:0;
     font-family:arial;
     font-size:12pt;
     font-weight:bold;
 }
-#homepage-locations p
-{
+#homepage-locations p {
     margin:0; border:0; padding:0;
     font-family:arial;
     font-size:10pt;
     padding-bottom:25px;
 }
-#homepage-locations a
-{
+#homepage-locations a {
    color:white;
 }
 
