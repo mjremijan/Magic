@@ -6,13 +6,21 @@ body {
     background-image:url('../images/shared/background-gradient.png');
     margin:0; border:0; padding:0;
 }
-
-#content {
+.clear {
+    clear:both;
+}
+.opaque {
+	background-image:url('../images/shared/opaque.png'); 
+}
+#body-wrapper {
     width: 800px;
     margin:0px auto;	
 	overflow:auto;
 }
-
-.clear {
-    clear:both;
+#page-wrapper {
+	margin:0; border:0; padding:0;
+	overflow:auto; 
+	position:relative; 
+	padding:12px;	
 }
+
