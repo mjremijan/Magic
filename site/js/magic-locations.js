@@ -76,8 +76,8 @@
 		
 		$(document).ready(function() {
 		  $("#locations-map").css({
-			height: 400,
-			width: 400
+			height: 375,
+			width: 375
 		  });
 		  //var myLatLng = new google.maps.LatLng(38.592634,-89.975483);
 		  var myLatLng = new google.maps.LatLng(38.587759,-89.967556);
