@@ -9,7 +9,7 @@
  * The purpose of this style sheet is to provide styling for menu items.
  */
 #menu-wrapper{
-	overflow:auto;
+	overflow:hidden;
 }
 #menu-centered-dropshadow {
     position:relative; float:left;

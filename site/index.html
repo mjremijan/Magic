@@ -10,16 +10,22 @@
     <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>    
 	
 	<!-- coin-slider -->
-	<link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />
+	<link rel="stylesheet" href="css/coin-slider.css" type="text/css" />
 	<script type="text/javascript" src="js/coin-slider.min.js"></script>
 	
-	<!-- magic (common) -->	
-	<link rel="stylesheet" href="css/styles.css" type="text/css" />
-	<link rel="stylesheet" href="css/magic-header-styles.css" type="text/css" />
-	<link rel="stylesheet" href="css/magic-menu-styles.css" type="text/css" />
+	<!-- magic (common) -->		
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />		
 	
+	<!-- magic (header) -->
+	<link rel="stylesheet" href="css/magic-header.css" type="text/css" />
+	<script type="text/javascript" src="js/magic-header.js"></script>
+	
+	<!-- magic (menu) -->
+	<link rel="stylesheet" href="css/magic-menu.css" type="text/css" />
+	<script type="text/javascript" src="js/magic-menu.js"></script>
+		
 	<!-- magic (homepage) -->
-	<link rel="stylesheet" href="css/magic-homepage-styles.css" type="text/css" />
+	<link rel="stylesheet" href="css/magic-homepage.css" type="text/css" />
 	<script type="text/javascript" src="js/magic-homepage.js"></script>    
 
     <title>Home: Magic Building Block Preschool &amp; Childcare Center</title>
@@ -27,35 +33,10 @@
 <body>
 
 <div id="body-wrapper">
-	<div id="header-wrapper">
-		<div id="header-logo">
-			<img alt="magic building block logo" src="images/header/logo.png" />
-		</div>
-		<div id="header-menu">
-			<div id="header-menu-links">
-				<a href="index.html" class="active">home</a> | <a href="#">contact us</a>
-			</div>
-			<div id="header-menu-slogan">
-				<img src="images/header/serving-30-years.png" alt="serving over 30 years" />
-			</div>
-		</div>
-	</div>
-
-	<div id="menu-wrapper">
-		<div id="menu-centered-dropshadow">
-			<img src="images/menu/centered-dropshadow.png"/>
-		</div>
-		<div id="menu-centered-items">
-		   <ul>
-			  <li class="first"><a href="locations.html">Locations</a></li>
-			  <li><a href="index.html">Philosophy</a></li>
-			  <li><a href="index.html">Rates</a></li>
-			  <li><a href="index.html">Curriculum</a></li>
-		   </ul>
-		</div>
-	</div>
-		
-    <div class="clear"/>
+	
+	<script>writeHeader("home");</script>		
+	
+	<script>writeMenu("home");</script>		
 
 	<div id="page-wrapper">
 		<div id="homepage-locations">

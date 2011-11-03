@@ -9,48 +9,31 @@
 	<!-- jquery -->
     <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>    
 		
-	<!-- magic (common) -->	
-	<link rel="stylesheet" href="css/styles.css" type="text/css" />
-	<link rel="stylesheet" href="css/magic-header-styles.css" type="text/css" />
-	<link rel="stylesheet" href="css/magic-menu-styles.css" type="text/css" />
+	<!-- magic (common) -->		
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />		
+	
+	<!-- magic (header) -->
+	<link rel="stylesheet" href="css/magic-header.css" type="text/css" />
+	<script type="text/javascript" src="js/magic-header.js"></script>
+	
+	<!-- magic (menu) -->
+	<link rel="stylesheet" href="css/magic-menu.css" type="text/css" />
+	<script type="text/javascript" src="js/magic-menu.js"></script>
 	
 	<!-- magic (locations) -->
 	<script type="text/javascript" src="js/google-maps-2011.11.03.js"></script>
 	<script type="text/javascript" src="js/magic-locations.js"></script>    
-	<link rel="stylesheet" href="css/magic-locations-styles.css" type="text/css" />
+	<link rel="stylesheet" href="css/magic-locations.css" type="text/css" />
 	
     <title>Locations: Magic Building Block Preschool &amp; Childcare Center</title>
 </head>
 <body>
 
 <div id="body-wrapper">
-	<div id="header-wrapper">
-		<div id="header-logo">
-			<img alt="magic building block logo" src="images/header/logo.png" />
-		</div>
-		<div id="header-menu">
-			<div id="header-menu-links">
-				<a href="index.html">home</a> | <a href="#">contact us</a>
-			</div>
-			<div id="header-menu-slogan">
-				<img src="images/header/serving-30-years.png" alt="serving over 30 years" />
-			</div>
-		</div>
-	</div>
 
-	<div id="menu-wrapper">
-		<div id="menu-centered-dropshadow">
-			<img src="images/menu/centered-dropshadow.png"/>
-		</div>
-		<div id="menu-centered-items">
-		   <ul>
-			  <li class="first"><a class="active" href="#">Locations</a></li>
-			  <li><a href="index.html">Philosophy</a></li>
-			  <li><a href="index.html">Rates</a></li>
-			  <li><a href="index.html">Curriculum</a></li>
-		   </ul>
-		</div>
-	</div>	
+	<script>writeHeader("locations");</script>		
+	
+	<script>writeMenu("locations");</script>		
 
 	<div id="page-wrapper" class="opaque">
 		<div id="locations-addresses"> 
