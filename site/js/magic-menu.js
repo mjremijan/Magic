@@ -13,8 +13,8 @@ function getMenu(active)
 	menu += " 	   <ul> ";	
 	menu += " 		  " + getLocation(active);
 	menu += " 		  " + getPhilosophy(active);
-	menu += " 		  " + getRates(active);
 	menu += " 		  " + getCurriculum(active);
+	menu += " 		  " + getRates(active);	
 	menu += " 	   </ul> ";
 	menu += " 	</div><!--menu-centered-items--> ";
 	menu += " </div><!--menu-wrapper--> ";

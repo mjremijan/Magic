@@ -21,7 +21,12 @@
 	float:left;
 	width:300px;
 }
-#header-logo img {width:250px;}
+#header-logo  a {
+	margin:0; border:0; padding:0;
+	text-decoration:none;
+}
+
+#header-logo img {width:250px; border:0; }
 
 #header-menu {
 	margin:0; border:0; padding:0;

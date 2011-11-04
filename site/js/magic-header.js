@@ -7,7 +7,7 @@ function getHeader(active)
 	
 	menu += " <div id=\"header-wrapper\"> ";
 	menu += "	<div id=\"header-logo\"> ";
-	menu += "		<img alt=\"magic building block logo\" src=\"images/header/logo.png\" /> ";
+	menu += "		<a href=\"index.html\"><img alt=\"magic building block logo\" src=\"images/header/logo.png\" /></a> ";
 	menu += "	</div> ";
 	menu += "	<div id=\"header-menu\"> ";
 	menu += "		<div id=\"header-menu-links\"> ";
@@ -24,7 +24,7 @@ function getHeader(active)
 function getContactUs(active)
 {
 	var clas = "";
-	var page = "contactus.html";
+	var page = "#";
 	if (active === "contactus") {
 		clas = "class=\"active\"";
 		page = "#";

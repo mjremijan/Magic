@@ -19,29 +19,10 @@
 	text-align:center; 
 	width:375px;
 }
-#locations-addresses h1 {
-    margin:0; border:0; padding:0;
-    font-family:arial;
-    font-size:16pt;
-    font-weight:bold;
-	margin-bottom:15px;
-}
 #locations-addresses table { 
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align:top;
-}
-#locations-addresses table tr td { 
-	vertical-align:top;
-	text-align:left;
-	padding-right:10px;
-	font-size:12pt;
-	font-family:arial;
-	padding-bottom:0px;
-}
-#locations-addresses table tr td.label { 
-	font-weight:bold;	
-	color:black;
 }
 
 
