@@ -24,12 +24,12 @@ function getHeader(active)
 function getContactUs(active)
 {
 	var clas = "";
-	var page = "#";
-	if (active === "contactus") {
+	var page = "contact.html";
+	if (active === "contact_us") {
 		clas = "class=\"active\"";
-		page = "#";
+		page = "contact.html";
 	}
-	return "<a href=\""+page+"\" "+clas+">contact us</a>";
+	return "<a href=\""+page+"\" "+clas+">contact us</a>";	
 }
 function getHome(active)
 {

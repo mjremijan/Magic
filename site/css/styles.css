@@ -38,6 +38,13 @@ td.label {
 	background-image:url('../images/shared/opaque.png'); 
 	background-repeat:repeat;
 }
+.underline {
+	text-decoration:underline;
+}
+.bold {
+	font-weight:bold;
+}
+
 #body-wrapper {
     width: 800px;
     margin:0px auto;	

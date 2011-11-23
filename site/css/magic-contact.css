@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+/*
+ * Created As: magic-contact.css
+ * Created By: Michael Remijan
+ * Created On: 23 Nov 2011
+ * References:
+ * 	- none
+ *
+ * The purpose of this style sheet is to provide styling for the contact us page.
+ */
+input[type="text"] {
+	width:250px;
+	border-style:groove;
+	font-family:arial;
+	font-size:12pt;
+	
+}
+.inputWarning {
+	border-color:red; 
+	background-color:rgb(255,198,198);	
+}
+textarea {
+	width: 485px;
+    height: 175px;
+    border-style:groove;
+	font-family:arial;
+	font-size:12pt;
+    background-image: url('../images/contact/thankyou.png'); 
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
