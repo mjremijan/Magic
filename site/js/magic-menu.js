@@ -54,10 +54,10 @@ function getPhilosophy(active)
 function getLocation(active)
 {
 	var clas = "";
-	var page = "locations.html";
-	if (active === "locations") {
+	var page = "location.html";
+	if (active === "location") {
 		clas = "class=\"active\"";
 		page = "#";
 	}
-	return "<li class=\"first\"><a "+clas+" href=\""+page+"\">Locations</a></li> ";
+	return "<li class=\"first\"><a "+clas+" href=\""+page+"\">Location</a></li> ";
 }

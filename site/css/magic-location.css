@@ -1,25 +1,25 @@
 @CHARSET "UTF-8";
 /*
- * Created As: magic-locations-styles.css
+ * Created As: magic-location-styles.css
  * Created By: Michael Remijan
  * Created On: 3 Nov 2011
  * References:
  * 	- none
  *
- * The purpose of this style sheet is to provide styling for locations items
+ * The purpose of this style sheet is to provide styling for location items
  */
-#locations-map {
+#location-map {
 	position:relative;
 	float:right;
 }
-#locations-addresses {
+#location-addresses {
     postion:relative;
     margin:0; border:0; padding:0;
     float:left;
 	text-align:center; 
 	width:375px;
 }
-#locations-addresses table { 
+#location-addresses table { 
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align:top;
