@@ -29,3 +29,8 @@ textarea {
     background-position: bottom right;
     background-repeat: no-repeat;
 }
+
+#joinus {
+	border:0;
+	margin-left:250px;
+}

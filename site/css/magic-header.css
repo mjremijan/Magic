@@ -63,3 +63,10 @@
 	margin-right:-10px;	
 }
 
+.fb_iframe_widget {
+	top: 5px;
+}
+.fb-like {
+    height: 20px;
+    overflow: hidden;
+}
